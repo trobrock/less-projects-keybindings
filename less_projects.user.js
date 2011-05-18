@@ -57,6 +57,6 @@ window.addEventListener("keydown", function(e) {
 
   if (keyPressed("a")) {
     fireEvent(document.getElementById("add_spec").children[0], 'click');
-    setTimeout(function(){ document.getElementById("spec_name").focus() }, 500);
+    setTimeout(function(){ document.getElementById("spec_name").focus(); }, 500);
   }
 });
